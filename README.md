@@ -1,26 +1,26 @@
 # The-Princess
 A book I wrote in c++
+<p>Updates:</p>
+Version 1.4
 
-Updates:
->>Version 1.4<<
-  01/01/2012
-    Worked on the prologue and Batch files
+01/01/2012
+Worked on the prologue and Batch files
 
-  02-02-2012
-    Made the about and progress files
+>02-02-2012
+>>Made the about and progress files
 
-  02-03-2012
-    Worked on the about and history files
+>02-03-2012
+>>Worked on the about and history files
 
-  02-04-2012
-    Worked some more on the history files
+>02-04-2012
+>>Worked some more on the history files
 
-  02-09-2012
-    Compiled some more of the prologue
-    Worked some more on converting the progress file to C++
-    Had to fix all the projects for "The Princess"
+>02-09-2012
+>>Compiled some more of the prologue
+>>Worked some more on converting the progress file to C++
+>>Had to fix all the projects for "The Princess"
 
-  02-10-2012
+>02-10-2012
     Compiled more of the prologue
 
   02-23-2012
