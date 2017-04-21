@@ -1,19 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Windows Desktop
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TP", "TP.vcxproj", "{083A45FF-595E-4CEF-8133-6B88D00F79FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Release|Win32 = Release|Win32
-		Description = The Princess. By ADR
+		Description = The Princess By ADR
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{083A45FF-595E-4CEF-8133-6B88D00F79FB}.Debug|Win32.ActiveCfg = Debug|Win32
 		{083A45FF-595E-4CEF-8133-6B88D00F79FB}.Debug|Win32.Build.0 = Debug|Win32
 		{083A45FF-595E-4CEF-8133-6B88D00F79FB}.Release|Win32.ActiveCfg = Release|Win32
 		{083A45FF-595E-4CEF-8133-6B88D00F79FB}.Release|Win32.Build.0 = Release|Win32
+		{083A45FF-595E-4CEF-8133-6B88D00F79FB}.Release|Win32.Deploy.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
