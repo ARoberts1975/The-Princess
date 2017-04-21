@@ -91,7 +91,7 @@ Updates:
 
   12-26-2012
     Worked on the prologue more
---------------------------------------------------------------------------------------------
+
   01-29-2013
     Finished the prologue
     Worked on Chapter 1
@@ -281,3 +281,6 @@ Updates:
     Finished Chapter 20.
     Made final recompilation
     
+  04-21-2017
+    Updated the code and uploaded to GitHub
+    More code updates
