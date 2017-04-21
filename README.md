@@ -1,39 +1,29 @@
 # The-Princess
 A book I wrote in c++
 <p>Updates:</p>
-Version 1.4
-
-01/01/2012
-Worked on the prologue and Batch files
-
->02-02-2012
->>Made the about and progress files
-
->02-03-2012
->>Worked on the about and history files
-
->02-04-2012
->>Worked some more on the history files
-
->02-09-2012
->>Compiled some more of the prologue
->>Worked some more on converting the progress file to C++
->>Had to fix all the projects for "The Princess"
-
->02-10-2012
-    Compiled more of the prologue
-
-  02-23-2012
-    Worked on the prologue a bit
-
-  02-24-2012
-    Worked on the prologue
-
-  02-15-2012
-    Worked on sections 5 through 10 of the prologue
-
-  02-29-2012
-    Worked a bit on the Prologue
+<p>Version 1.4</p>
+<p>01/01/2012<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Worked on the prologue and Batch files</p>
+<p>02-02-2012<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Made the about and progress files</p>
+<p>02-03-2012<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Worked on the about and history files</p>
+<p>02-04-2012<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Worked some more on the history files</p>
+<p>02-09-2012<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Compiled some more of the prologue<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Worked some more on converting the progress file to C++<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Had to fix all the projects for "The Princess"</p>
+<p>02-10-2012<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Compiled more of the prologue</p>
+<p>02-23-2012<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Worked on the prologue a bit</p>
+<p>02-24-2012<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Worked on the prologue</p>
+<p>02-15-2012<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Worked on sections 5 through 10 of the prologue</p>
+<p>02-29-2012<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Worked a bit on the Prologue</p>
 
   04-23-2012
     Worked some more on the prologue
