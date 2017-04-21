@@ -99,7 +99,7 @@ A book I wrote in c++
 &nbsp;&nbsp;&nbsp;&nbsp;Worked some more on Chapter 5 - finished up to page 87</p>
 <p>08-18-2013<br />
 &nbsp;&nbsp;&nbsp;&nbsp;Worked on Chapter 5 - finished up to page 95</p>
-<p>08-22-2013>br />
+<p>08-22-2013<br />
 &nbsp;&nbsp;&nbsp;&nbsp;Worked more on Chapter 5 - finished to page 96</p>
 <p>09-08-2013<br />
 &nbsp;&nbsp;&nbsp;&nbsp;Finished Chapter 5<br />
