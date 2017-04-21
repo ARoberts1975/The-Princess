@@ -13,7 +13,7 @@ void about()
 	cout << "Version 1.4.2017" << endl;
 	cout << ">Legal<" << endl;
 	cout << "-------" << endl;
-	cout << "\"The Princess\" (C)Copyright 2005-2014 Allen Roberts." << endl;
+	cout << "\"The Princess\" (C)Copyright 2005-2017 Allen Roberts." << endl;
 	cout << "**This book is protected by copyright. You may not copy, translate or post any" << endl;
 	cout << "part, or the whole without written permission by the author.**\n" << endl;
 	cout << "**\"The Princess\" is a work of fiction. All places, events, and characters are" << endl;
