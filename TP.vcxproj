@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{083A45FF-595E-4CEF-8133-6B88D00F79FB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TP</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\lc.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+    <EmbedManifest>false</EmbedManifest>
+    <LinkDelaySign>false</LinkDelaySign>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessKeepComments>true</PreprocessKeepComments>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ShowIncludes>true</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MinSpace</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+      <CallingConvention>StdCall</CallingConvention>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <AllowIsolation>false</AllowIsolation>
+      <ShowProgress>LinkVerbose</ShowProgress>
+      <RegisterOutput>true</RegisterOutput>
+      <EnableUAC>false</EnableUAC>
+      <AssemblyDebug>false</AssemblyDebug>
+      <LargeAddressAware>false</LargeAddressAware>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <SetChecksum>true</SetChecksum>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Manifest>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SuppressDependencyElement>true</SuppressDependencyElement>
+      <VerboseOutput>false</VerboseOutput>
+    </Manifest>
+    <Xdcmake>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </Xdcmake>
+    <ResourceCompile>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+    </ResourceCompile>
+    <ResourceCompile>
+      <ShowProgress>true</ShowProgress>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="about.cpp" />
+    <ClCompile Include="ceight.cpp" />
+    <ClCompile Include="ceighteen.cpp" />
+    <ClCompile Include="celeven.cpp" />
+    <ClCompile Include="cfifteen.cpp" />
+    <ClCompile Include="cfive.cpp" />
+    <ClCompile Include="cfour.cpp" />
+    <ClCompile Include="cfourteen.cpp" />
+    <ClCompile Include="cnine.cpp" />
+    <ClCompile Include="cnineteen.cpp" />
+    <ClCompile Include="coming.cpp" />
+    <ClCompile Include="cone.cpp" />
+    <ClCompile Include="cseven.cpp" />
+    <ClCompile Include="cseventeen.cpp" />
+    <ClCompile Include="csix.cpp" />
+    <ClCompile Include="csixteen.cpp" />
+    <ClCompile Include="cten.cpp" />
+    <ClCompile Include="cthirteen.cpp" />
+    <ClCompile Include="cthree.cpp" />
+    <ClCompile Include="ctwelve.cpp" />
+    <ClCompile Include="ctwenty.cpp" />
+    <ClCompile Include="ctwo.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="menua.cpp" />
+    <ClCompile Include="pro.cpp" />
+    <ClCompile Include="progress.cpp" />
+    <ClCompile Include="tp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="about.h" />
+    <ClInclude Include="ceight.h" />
+    <ClInclude Include="ceighteen.h" />
+    <ClInclude Include="celeven.h" />
+    <ClInclude Include="cfifteen.h" />
+    <ClInclude Include="cfive.h" />
+    <ClInclude Include="cfour.h" />
+    <ClInclude Include="cfourteen.h" />
+    <ClInclude Include="cnine.h" />
+    <ClInclude Include="cnineteen.h" />
+    <ClInclude Include="coming.h" />
+    <ClInclude Include="cone.h" />
+    <ClInclude Include="cseven.h" />
+    <ClInclude Include="cseventeen.h" />
+    <ClInclude Include="csix.h" />
+    <ClInclude Include="csixteen.h" />
+    <ClInclude Include="cten.h" />
+    <ClInclude Include="cthirteen.h" />
+    <ClInclude Include="cthree.h" />
+    <ClInclude Include="ctwelve.h" />
+    <ClInclude Include="ctwenty.h" />
+    <ClInclude Include="ctwo.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="menua.h" />
+    <ClInclude Include="pro.h" />
+    <ClInclude Include="progress.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tp.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\lc.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menua.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfifteen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfourteen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cnineteen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coming.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cseven.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csixteen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cten.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cthirteen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ctwelve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ctwenty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ctwo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="progress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cnine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cseventeen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cthree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="about.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ceight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ceighteen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="celeven.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfifteen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cnineteen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coming.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csixteen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cten.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ctwelve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ctwenty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ctwo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="progress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfourteen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cnine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cseven.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cseventeen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cthirteen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cthree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ceight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ceighteen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="celeven.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tp.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

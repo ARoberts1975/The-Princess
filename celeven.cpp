@@ -1,0 +1,101 @@
+#include <iostream>
+#include <string>
+#include "menu.h"
+
+using namespace std;
+
+int c_eleven()
+{
+	string ct11 = "The Princess    -    Chapter XI    -    Page ";
+
+	system ("cls");
+	cout << "The Princess    -    Chapter Eleven    -    Page 124\n" << endl;
+	cout << "\"What exactly are you looking for?\" asked Monia." << endl;
+	cout << "    \"Loran stuff,\" said the princess." << endl;
+	cout << "    The princess and Monia had surfaced next to the beach and Princess Leanne" << endl;
+	cout << "had checked for lorans. When she was sure there were none, she signaled for" << endl;
+	cout << "Monia to surface." << endl;
+	cout << "    \"Loran?\" asked Monia, \"I thought we were here for land-dweller stuff.\"" << endl;
+	cout << "    \"Lorans are land-dwellers,\" Said the princess, \"That's what they call" << endl;
+	cout << "themselves, and now that we know, I think it's only right we do the same.\"" << endl;
+	cout << "    \"Yah,\" said Monia, \"Now that you mention it, it does seem rude not to. But" << endl;
+	cout << "why would anyone want their stuff?\"" << endl;
+	cout << "    \"Because,\" said the princess, \"It's different from our stuff. Some is" << endl;
+	cout << "pretty, some rare, and even unique. You can learn a lot about a culture from" << endl;
+	cout << "what they make.\"" << endl;
+	cout << "    \"That's true,\" said Monia, \"but aren't Land-dwellers, I mean lorans," << endl;
+	cout << "barbaric?\"" << endl;
+	cout << "    \"Not really,\" said the princess, \"I wouldn't invite them over for dinner," << endl;
+	cout << "but they aren't exactly barbaric either. They're kind of like we were in the" << endl;
+	cout << "dark times.\"" << endl;
+	cout << "    \"Aren't the Lorans already united?\" asked Monia." << endl;
+	cout << "    \"I wasn't exactly referring to the unification, more too how people were." << endl;
+	cout << "The lorans have been united for eighteen years. They just aren't as mature, if" << endl;
+	cout << "you will.\"" << endl;
+	system ("pause");
+	system ("cls");
+	cout << ct11 << "125\n" << endl;
+	cout << "    The princess and Monia dove back into the water, and swam to where the surf" << endl;
+	cout << "began." << endl;
+	cout << "    \"Stay here,\" said the princess to Monia, \"I'm going to once again try to" << endl;
+	cout << "find something nice.\"" << endl;
+	cout << "    \"What are you going to do if you can't?\" asked Monia, \"We can't keep coming" << endl;
+	cout << "back, we'll get sick.\"" << endl;
+	cout << "    \"Look, we're not going to get sun sickness,\" said the princess, \"Think of" << endl;
+	cout << "this; it's a four hour swim back to the palace, right?\"" << endl;
+	cout << "    \"Right,\" said Monia." << endl;
+	cout << "    \"Which leaves us an hour-and-a-half,\" said the princess, \"if we want to get" << endl;
+	cout << "back before it's too late, right?\"" << endl;
+	cout << "    \"Right,\" said Monia." << endl;
+	cout << "    \"How long,\" asked the princess, \"do you think we could safely stay in the" << endl;
+	cout << "sun, given our exposure yesterday, the time of day and year, and the air" << endl;
+	cout << "temperature?\"" << endl;
+	cout << "    Monia thought for a moment, trying to estimate their time based on the feel" << endl;
+	cout << "of the elements around her." << endl;
+	cout << "    \"I don't know,\" She finally said, \"twenty minutes?\"" << endl;
+	cout << "    \"We have,\" the princess stopped a few moments to figure it out, \"about" << endl;
+	cout << "forty-five minutes. Estimated at worst.\"" << endl;
+	cout << "    \"So,\" said Monia, \"We leave before then.\"" << endl;
+	cout << "    \"Exactly,\" said the princess, \"and if I can't find anything by then, we'll" << endl;
+	system ("pause");
+	system ("cls");
+	cout << ct11 << "126\n" << endl;
+	cout << "head back and check out some of the sunken vessels in Fiana.\"" << endl;
+	cout << "    \"Sunken vessels?\" asked Monia, \"But sharks hang around sunken vessels.\"" << endl;
+	cout << "    \"Not always,\" said the princess, \"We'll find some that aren't shark" << endl;
+	cout << "infested.\"" << endl;
+	cout << "    \"What about the keshtids?\" asked Monia.\"" << endl;
+	cout << "    \"They don't exist,\" said the princess, \"That's just a shark tale they tell" << endl;
+	cout << "us to keep people away.\"" << endl;
+	cout << "    \"Oh,\" said Monia, \"Well then, why don't we go there instead?\"" << endl;
+	cout << "    \"It's too late, now,\" said the princess, \"We'd never make it back in time." << endl;
+	cout << "We'll go tomorrow morning. You'll love it. There won't be any sharks, and" << endl;
+	cout << "keshtids aren't real, so bring some food, and we'll make a day of it.\"" << endl;
+	cout << "    \"Sounds good to me,\" said Monia." << endl;
+	cout << "    \"Perfect,\" said the princess, \"then that's what we'll do\"" << endl;
+	cout << "    The princess took another good look around, and still saw no Lorans, so she" << endl;
+	cout << "decided to go to land." << endl;
+	cout << "    \"I'll be back,\" said the princess, \"I' m going to land. Help me keep an eye" << endl;
+	cout << "out for lorans. If you see any, let me know right away,\"" << endl;
+	cout << "    \"I'll let you know the second I see any,\" said Monia." << endl;
+	cout << "    \"Great,\" said the princess, \"I'll be back.\"" << endl;
+	cout << "    \"Be careful,\" said Monia, as the princess swam away." << endl;
+	cout << "    \"I will,\" said the princess back to Monia." << endl;
+	cout << "    The princess transformed, then swam with the surf to the shallow water" << endl;
+	system ("pause");
+	system ("cls");
+	cout << ct11 << "127\n" << endl;
+	cout << "where she waded out of the water, then walked to the sand. She then started to" << endl;
+	cout << "look for something to show Monia." << endl;
+	cout << "    It felt strange being in loran form, and she hoped no more lorans would see" << endl;
+	cout << "her half naked. She would have to have the seamstress make something for her to" << endl;
+	cout << "wear if she was going to keep coming to the beach." << endl;
+	cout << "    Monia waited while the princess searched the beach. She thought the" << endl;
+	cout << "princess looked weird with legs, but she seemed to use them very well." << endl;
+	cout << "    I've got to get her to teach me the transformation, she thought as she" << endl;
+	cout << "watched." << endl;
+	cout << "    Monia continued to watch the princess while keeping a look out for Lorans.\n\n\n\n\n\n\n\n\n\n\n\n" << endl;
+	system ("pause");
+	menu();
+	return 0;
+}
