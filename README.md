@@ -1,2 +1,2 @@
 # The-Princess
-The Princess: a c++ book I wrote
+Revisions for The Princess (c++)
